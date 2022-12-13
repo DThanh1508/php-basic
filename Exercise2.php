@@ -1,6 +1,33 @@
+<!--Đếm các kí tự ( không tính kí tự trống )-->
 <?php
+$str = "welcome to bap company";
+//$count = 0;
+//for ($i = 0; $i < strlen($str); $i++) {
+//    if ($str[$i] != ' ') {
+//        $count += 1;
+//    }
+//}
+//echo $count;
 
-//đếm các kí tự ( không tính kí tự trống )
-//$bap = "Wellcome to BAP comany";
-//echo preg_match_all ('/[A-Za-z]/', $bap, $out) . "\n" ;
+//Tìm những kí tự lặp lại > 2.
+//for ($i = 0; $i < strlen($str) - 1; $i++) {
+//    $count = 1;
+//    if ($str[$i] != ' ') {
+//        for ($j = $i + 1; $j < strlen($str); $j++) {
+//            if ($str[$j] != ' ') {
+//                if ($str[$i] == $str[$j]) {
+//                    $count += 1;
+//                    if ($count > 2) {
+//                        echo "Chữ lặp lại: $str[$i]";
+//                    }
+//                }
+//            }
+//        }
+//    }
+//}
+
+//thay thế  “ company” bằng “software”.
+//echo str_replace('company', "software",  $str);
+
+//Giải phương trình bậc hai một ẩn: ax2 + bx + c = 0
 
