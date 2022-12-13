@@ -1,3 +1,4 @@
+<!--Giải phương trình bậc hai một ẩn: ax2 + bx + c = 0.-->
 <?php
 $result = '';
 if (isset($_POST['calculate'])) {

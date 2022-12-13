@@ -1,3 +1,4 @@
+<!--nhập vào 1 thứ là số và cho ra kết quả là tiếng anh :-->
 <?php
     if ( isset($_POST['day']))
         $day = $_POST['day'];
